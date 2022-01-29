@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hack {
+  background: url("./mainPage/Hackatons.png");
+  height: 15.43px;
+  width: 18px;
+  margin: 10px;
+  margin-left: 17.8%;
+}
+
+.profile {
+  height: 40.64px;
+  width: 40.64px;
+  background-color: blue;
+  border-radius: 20.32px;
+  margin: 0px;
+  
+}
+
+.notif {
+  height: 19.5px;
+  width: 15.17px;
+  background: url("./mainPage/Notifications.png");
+  margin: 10px;
+  margin-right: 17.8%;
+}
+
+.pf {
+  background: url("./mainPage/Profile.png");
+  height: 14px;
+  width: 14px;
+  padding: 1px;
+  background-repeat: no-repeat;
+}
