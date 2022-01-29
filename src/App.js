@@ -20,6 +20,7 @@ function App() {
       {/* <CardDetailed></CardDetailed> */}
       {/* <Profile></Profile> */}
       <TeamProfile></TeamProfile>
+      <div></div>
     </React.Fragment>
   );
 }
